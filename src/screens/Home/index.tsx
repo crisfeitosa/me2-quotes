@@ -6,7 +6,6 @@ import { Header } from '../../components/Header';
 import { Line } from '../../components/Line';
 import { StyledContainer, InnerContainer, ContainerListQuotes, ListQuotes } from './styles';
 import { api } from '../../services/api';
-import { useFocusEffect } from '@react-navigation/native';
 
 export type ItemProps = {
   id: string;
